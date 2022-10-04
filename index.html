@@ -32,28 +32,41 @@
         <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
             <h2 class="display-4 mb-3">The BoA ATM</h2>
             <div class="text-center col-12 col-xxl-6 mb-3">
-                <img src="./assets/images/interface-sketch.jpg" class="photo" style="height: 50vh;">
+                <img src="./assets/images/interface-sketch.jpg" class="photo mb-2" style="height: 50vh; width:60vh">
                 <p style="color:darkgrey">A sketch of a typical BoA ATM for drawing and depositing cash. Users use the number pad to insert passwords or cash amount, insert/take their cards/cash from the corresponding outlets, and use the touch screen to interact with most of the instructions. Today's BoA ATMs also come with a tap zone for contactless transaction.</p>
             </div>
 
             <!-- Description  -->
             <div class="col-12 col-xxl-6 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
-                <p class="lead">My observations: Most users are either students or staff. Most interactions with the ATM went smooth. People processed at slightly different paces. </p>
-                <ol>
-                    <li class="lead">Are you here for depositing or drawing or anything else? Did you encounter any problems?</li>
-                    <li class="lead">Do you find the process straightforward?</li>
-                    <li class="lead">
-                        (A not-so-relevant bonus question out of curiosity:) <br>
-                        Have you noticed the tap zone? 
-                        Are you using/will you be using NFC instead of a physical card?
-                        Do you find it more convenient/Do you think it'd be more convenient?
-                    </li>
-                </ol>
+                <p class="lead">My observations: <br>
+                    Most users are either students or staff. 
+                    Most interactions with the ATM went smooth. <br>
+                    People processed at slightly different paces. 
+                    Some got their goal completed very quickly, some would gaze at the screen for a bit longer. <br>
+                    The common process most people follow without looking at any instructions: Insert card -- Input password -- Interact with screen
+                </p>
+                <br>
+                <p class="lead">I asked the ATM users about the following:
+                    <ol>
+                        <li class="lead">Are you here for depositing or drawing or anything else? Have you encountered any problems?</li>
+                        <li class="lead">Do you find the process straightforward?</li>
+                        <li class="lead" style="color:darkgrey">
+                            (A not-so-relevant bonus question that I asked some people out of curiosity:) <br>
+                            Have you noticed the tap zone? 
+                            Are you using/will you be using NFC instead of a physical card?
+                            Do you find it more convenient/Do you think it'd be more convenient?
+                        </li>
+                    </ol>
+                </p>
                 <p class="lead">Summarizing the answers:</p>
                 <ul>
-                    <li class="lead"></li>
-                    <li class="lead"></li>
-                    <li class="lead"></li>
+                    <li class="lead">Most people use the ATM mainly to draw cash, and the process is straightforward for people.</li>
+                    <li class="lead">The process is straightforward for people</li>
+                    <li class="lead" style="color:darkgrey">
+                        (Addressing the bonus question above) <br>
+                        People who are using NFC find it convenient. <br>
+                        People who are not using NFC can hardly notice the tap zone, and they tend to not use it because they think using a physical card is not that inconvenient; some also express security concerns.
+                    </li>
                 </ul>
             </div>
         </div>
@@ -71,7 +84,7 @@
                     <img src="./assets/images/empathy-map-1.jpg" class="photo" style="height: 70vh;">
                 </div>
                 <div class="col-12 col-xxl-6 ml-md-auto pb-3 pb-sm-5 px-5">
-                    <p class="lead">Alex, a student who wants to buy their lunch at a Cafe that only accepts cash.</p>
+                    <p class="lead">Alex, a student who wants to buy their lunch before class, at a student-run Cafe that only accepts cash.</p>
                     <p class="lead">They're unlikely to have any issues with the interface, since their intention does not involve complex operations, plus they're familiar with the interface. </p>
                     <p class="lead" style="color:darkgrey"><i>(This persona represents a typical college student that is commonly seen around on-campus ATMs -- familiar with basic ATM operations, often uses the ATM to draw cash.)</i></p>
                 </div>
@@ -81,26 +94,62 @@
             <div class="row align-items-center py-3 py-sm-5 px-2 px-sm-3 mx-xl-5">
                 <!-- ordering here: drop text below the image on medium and smaller devices. 
                     Adopted from https://stackoverflow.com/questions/52324561/bootstrap-4-how-to-change-the-order-of-a-columns-when-the-screen-size-changes -->
-                <div class="col-12 col-xxl-6 ml-md-auto pb-3 pb-sm-5 px-5 mb-3 order-2 order-md-1"> 
+                <div class="col-12 col-xxl-6 ml-md-auto pb-3 pb-sm-5 px-5 mb-3 order-2 order-xxl-1"> 
                     <p class="lead">KK, a new international student who wants to deposit the cash they brought.</p> 
                     <p class="lead">Unlike the other persona whose usage of the ATM is unplanned, "depositing the cash they brought" is something they'd put on their schedule. </p>
                     <p class="lead">Inserting the card, inserting password, interacting with the touch screen should not be difficult for them, though it might take them a short while to figure out how to deposit cash.  </p>
-                    <p class="lead" style="color:darkgrey"><i>(This persona represents new users of the ATM -- they usually have a goal to complete, and they will not necessarily experience any hardship, but the whole process is new to them.)</i></p>
+                    <p class="lead" style="color:darkgrey"><i>(This persona represents new users of the ATM -- they usually have a planned goal to complete (even if the goal is just to "try out the ATM"). They will not necessarily experience any hardship, but the whole process is new to them.)</i></p>
                 </div>
-                <div class="text-center col-12 col-xxl-6 mb-3 order-1 order-md-2">
+                <div class="text-center col-12 col-xxl-6 mb-3 order-1 order-xxl-2">
                     <img src="./assets/images/empathy-map-2.jpg" class="photo" style="height: 70vh;">
                 </div>
+            </div>
         </div>
     </div>
 
     <!-- Part IV. Storyboard -->
     <div class="container-fluid mb-5" id="storyboard">
         <div class="row align-items-center py-3 py-sm-5 px-2 px-sm-3 mx-xl-5">
-            <h2 class="display-4">Now let's look at a storyboard featuring KK:</h2>
+            <h2 class="display-4">Now let's look at a storyboard featuring <i>Alex</i>:</h2>
+            <h5 style="color: grey;">I would say this is the ideal process that they want most users to experience when drawing cash.</h6>
         </div>
 
-        <div class="row align-items-center py-3 py-sm-5 px-2 px-sm-3 mx-xl-5">
+        <div class="row align-items-center justify-content-between py-3 py-sm-5 px-2 px-sm-3 mx-xl-5">
+            <div class="text-center col-12 col-md-6 col-xxl-4 mb-3">
+                <img src="./assets/images/storyboard1.jpg" class="photo mb-2" style="height: 30vh">
+                <p style="color:darkgrey">Alex holding their phone while waiting in line
+                </p>
+            </div>
 
+            <div class="text-center col-12 col-md-6 col-xxl-4 mb-3">
+                <img src="./assets/images/storyboard2.jpg" class="photo mb-2" style="height: 30vh">
+                <p style="color:darkgrey">Alex unlocks and waves their phone near the NFC reading tap zone
+                </p>
+            </div>
+
+            <div class="text-center col-12 col-md-6 col-xxl-4 mb-3">
+                <img src="./assets/images/storyboard3.jpg" class="photo mb-2" style="height: 30vh">
+                <p style="color:darkgrey">Alex inserts the PIN using the number pad (Alex's done with their phone, holding it on their left hand)
+                </p>
+            </div>
+
+            <div class="text-center col-12 col-md-6 col-xxl-4 mb-3">
+                <img src="./assets/images/storyboard4.jpg" class="photo mb-2" style="height: 30vh">
+                <p style="color:darkgrey">Alex selects the amount of cash they wants, and skips the choosing bills process
+                </p>
+            </div>
+
+            <div class="text-center col-12 col-md-6 col-xxl-4 mb-3">
+                <img src="./assets/images/storyboard5.jpg" class="photo mb-2" style="height: 30vh">
+                <p style="color:darkgrey">Alex takes the bills from the outlet
+                </p>
+            </div>
+
+            <div class="text-center col-12 col-md-6 col-xxl-4 mb-3">
+                <img src="./assets/images/storyboard6.jpg" class="photo mb-2" style="height: 30vh">
+                <p style="color:darkgrey">Alex ends the transaction on the screen and leaves (No need to wait for the ATM to return their card)
+                </p>
+            </div>
         </div>
     </div>
 </body>
