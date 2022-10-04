@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Part of the code adopted from Jeff's bootstrap tutorial -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Persona & Storyboard</title>
+</head>
+<body>
+    <nav class="navbar sticky-top navbar-dark bg-dark justify-content-center align-items-center">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Persona and Storyboard -- BoA ATM</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#storyboard">BooHoo!NothingHereYet</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Introductory page -->
+    <div class="d-flex flex-column blankets justify-content-center align-items-center text-center">
+        <img src="./assets/images/photo-1481349518771-20055b2a7b24.jpg" style="height:60vh">
+        <h1 class="display-1">BoA ATM Observations</h1>
+        <h6 style="color:grey">Putting a banana pic here to make this even more scuffed .-.</h6>
+    </div>
+
+    <!-- Part I. & II. Sketch and Observations -->
+    <div class="container-fluid mb-5" id="sketch">
+        <div class="row align-items-center justify-content-center py-3 py-sm-5 px-3 px-sm-5 mx-xl-5">
+            <h2 class="display-4 mb-3">The BoA ATM</h2>
+            <div class="text-center col-12 col-xxl-6 mb-3">
+                <img src="./assets/images/interface-sketch.jpg" class="photo" style="height: 50vh;">
+                <p style="color:darkgrey">A sketch of a typical BoA ATM for drawing and depositing cash. Users use the number pad to insert passwords or cash amount, insert/take their cards/cash from the corresponding outlets, and use the touch screen to interact with most of the instructions. Today's BoA ATMs also come with a tap zone for contactless transaction.</p>
+            </div>
+
+            <!-- Description  -->
+            <div class="col-12 col-xxl-6 px-3 px-sm-5 ml-md-auto pb-3 pb-sm-5">
+                <p class="lead">My observations: Most users are either students or staff. Most interactions with the ATM went smooth. People processed at slightly different paces. </p>
+                <ol>
+                    <li class="lead">Are you here for depositing or drawing or anything else? Did you encounter any problems?</li>
+                    <li class="lead">Do you find the process straightforward?</li>
+                    <li class="lead">
+                        (A not-so-relevant bonus question out of curiosity:) <br>
+                        Have you noticed the tap zone? 
+                        Are you using/will you be using NFC instead of a physical card?
+                        Do you find it more convenient/Do you think it'd be more convenient?
+                    </li>
+                </ol>
+                <p class="lead">Summarizing the answers:</p>
+                <ul>
+                    <li class="lead"></li>
+                    <li class="lead"></li>
+                    <li class="lead"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Part III. Persona -->
+    <div class="container-fluid mb-5" id="persona">
+        <div class="row align-items-center py-3 py-sm-5 px-2 px-sm-3 mx-xl-5">
+            <h2 class="display-4">I constructed 2 personas:</h2>
+            <h6 style="color: grey;">Note: The personas are based more on my long-termed observation, rather than just the interview above.</h6>
+            
+            <!-- Persona 1 -->
+            <div class="row align-items-center py-3 py-sm-5 mx-xl-5">
+                <div class="text-center col-12 col-xxl-6 mb-3">
+                    <img src="./assets/images/empathy-map-1.jpg" class="photo" style="height: 70vh;">
+                </div>
+                <div class="col-12 col-xxl-6 ml-md-auto pb-3 pb-sm-5 px-5">
+                    <p class="lead">Alex, a student who wants to buy their lunch at a Cafe that only accepts cash.</p>
+                    <p class="lead">They're unlikely to have any issues with the interface, since their intention does not involve complex operations, plus they're familiar with the interface. </p>
+                    <p class="lead" style="color:darkgrey"><i>(This persona represents a typical college student that is commonly seen around on-campus ATMs -- familiar with basic ATM operations, often uses the ATM to draw cash.)</i></p>
+                </div>
+            </div>
+            
+            <!-- Persona 2 -->
+            <div class="row align-items-center py-3 py-sm-5 px-2 px-sm-3 mx-xl-5">
+                <!-- ordering here: drop text below the image on medium and smaller devices. 
+                    Adopted from https://stackoverflow.com/questions/52324561/bootstrap-4-how-to-change-the-order-of-a-columns-when-the-screen-size-changes -->
+                <div class="col-12 col-xxl-6 ml-md-auto pb-3 pb-sm-5 px-5 mb-3 order-2 order-md-1"> 
+                    <p class="lead">KK, a new international student who wants to deposit the cash they brought.</p> 
+                    <p class="lead">Unlike the other persona whose usage of the ATM is unplanned, "depositing the cash they brought" is something they'd put on their schedule. </p>
+                    <p class="lead">Inserting the card, inserting password, interacting with the touch screen should not be difficult for them, though it might take them a short while to figure out how to deposit cash.  </p>
+                    <p class="lead" style="color:darkgrey"><i>(This persona represents new users of the ATM -- they usually have a goal to complete, and they will not necessarily experience any hardship, but the whole process is new to them.)</i></p>
+                </div>
+                <div class="text-center col-12 col-xxl-6 mb-3 order-1 order-md-2">
+                    <img src="./assets/images/empathy-map-2.jpg" class="photo" style="height: 70vh;">
+                </div>
+        </div>
+    </div>
+
+    <!-- Part IV. Storyboard -->
+    <div class="container-fluid mb-5" id="storyboard">
+        <div class="row align-items-center py-3 py-sm-5 px-2 px-sm-3 mx-xl-5">
+            <h2 class="display-4">Now let's look at a storyboard featuring KK:</h2>
+        </div>
+
+        <div class="row align-items-center py-3 py-sm-5 px-2 px-sm-3 mx-xl-5">
+
+        </div>
+    </div>
+</body>
+</html>
